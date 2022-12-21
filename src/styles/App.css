@@ -1,0 +1,165 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-size: calc(1.5vmin);
+}
+
+.App-footer {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  color: white;
+}
+.App-content {
+  background-color: white;
+  min-height: 80vh;
+  font-size: calc(1.5vmin);
+  
+}
+.generalForm {
+  background-color: white;
+  border: solid;
+  box-shadow: 5px 10px;
+  gap:10px;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.col-1 {
+  grid-column: 1/2;
+  display:flex;
+  justify-content: space-around;
+    
+}
+.col-2 {
+  grid-column: 2/3;
+  display:flex;
+  justify-content: space-around;
+  
+}
+.col-3 {
+  grid-column: 3/4;
+  display:flex;
+  justify-content: space-around;
+  
+}
+.button{
+  
+  padding-top: 10px;
+  align-self: center;
+  
+}
+button{
+  font-size: calc(1.5vmin);
+}
+.generalForm2{
+  background-color: white;
+  border:solid;
+  box-shadow: 5px 10px; 
+  gap:10px;
+ 
+  
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  
+}
+.generalFormx{
+  background-color: white;
+  
+   
+  gap:10px;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  
+}
+.col-1x {
+  grid-column: 1/2;
+  display:flex;
+  justify-content: space-around;
+    
+}
+.col-2x {
+  grid-column: 2/3;
+  display:flex;
+  justify-content: space-around;
+  
+}
+.col-3x {
+  grid-column: 3/4;
+  display:flex;
+  justify-content: space-around;
+}
+.col-4x {
+  grid-column: 4/5;
+  display:flex;
+  justify-content: space-around;
+}
+.generalForm5{
+  background-color: white;
+  
+   
+  gap:10px;
+  display:grid;
+  grid-template-columns: repeat(5,1fr);
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  
+}
+.col-15 {
+  grid-column: 1/2;
+  display:flex;
+  justify-content: space-around;
+    
+}
+.col-25 {
+  grid-column: 2/3;
+  display:flex;
+  justify-content: space-around;
+  
+}
+.col-35 {
+  grid-column: 3/4;
+  display:flex;
+  justify-content: space-around;
+}
+.col-45 {
+  grid-column: 4/5;
+  display:flex;
+  justify-content: space-around;
+}
+.col-55 {
+  grid-column: 5/6;
+  display:flex;
+  justify-content: space-around;
+}
