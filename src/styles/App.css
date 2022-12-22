@@ -22,6 +22,9 @@
 }
 .App-content {
   background-color: white;
+  background-image: url('landscape10.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 80vh;
   font-size: calc(1.5vmin);
   
